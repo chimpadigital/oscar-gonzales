@@ -309,7 +309,9 @@ p {
     z-index: 99;
     top: 0;
     padding: 0 4%;
+    background: white;
 }
+.logo{height: 55px;}
 
 .menu_area .navbar-brand {
     font-size: 72px;
@@ -333,7 +335,7 @@ p {
 }
 
 .menu_area #nav .nav-link {
-    color: #fff;
+    color: #000;
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -341,7 +343,7 @@ p {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    padding: 35px 15px;
+    padding: 19px 15px;
 }
 
 
@@ -377,7 +379,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #ffffff;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -437,11 +439,11 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 700;
     position: relative;
     z-index: 3;
-    line-height: 43px;
+    line-height: 53px;
 
 }
 
@@ -505,7 +507,7 @@ p {
 .wellcome-heading > p {
     color: #0090df;
     font-family: 'Juan';
-    font-size: 25px;
+    font-size: 34px;
 }
 
 .wellcome-heading > h3 {
@@ -617,6 +619,7 @@ p {
     background: #f8b000;
     color: #003f8f;
     font-weight: 900;
+    font-size: 20px;
 }
 
 .app-download-btn.active a,
